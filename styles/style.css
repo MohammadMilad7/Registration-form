@@ -116,3 +116,34 @@ form .button input{
 form .button input:hover{
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
+/* @media screen  {
+    .container{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin: 20px 0px 12px 0px;
+        width:100%;
+        margin-bottom: 15px;
+    }
+} */
+@media only screen and (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin: 20px 0px 12px 0px;
+        width:100%;
+        margin-bottom: 15px;
+    }
+    form .gender-details .category{
+        width: 100%;
+    }
+    .container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+
+    }
+  }
